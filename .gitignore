@@ -1,0 +1,6 @@
+echo ".env
+data/
+__pycache__/
+*.pyc
+*.parquet
+.DS_Store" > .gitignore

@@ -14,6 +14,9 @@ SavePoint/
 ├── requirements.txt
 ├── .env.example
 │
+├── analysis/
+│   └── explore_data.py           ← EDA standalone (Match Rate RAWG, visualisations)
+│
 ├── ingestion/
 │   ├── ingestion.py              ← Pipeline standalone (CSV → Parquet)
 │   ├── ingestion_snowflake.py    ← Chargement vers Snowflake
@@ -146,7 +149,17 @@ python ingestion/enrichment_rawg.py
 python ingestion/ingestion_snowflake.py
 ```
 
-### 6. Lancer via Airflow
+### 6. Analyse exploratoire
+
+```bash
+# Script standalone EDA
+python analysis/explore_data.py
+
+# Ou via Jupyter
+jupyter notebook notebooks/analyse_savepoint.ipynb
+```
+
+### 7. Lancer via Airflow
 
 ```bash
 # Copier le DAG
@@ -249,6 +262,15 @@ data_quality_check   ← Contrôles intégrité Snowflake
 ```
 
 ---
+
+
+## 📸 Dashboard Power BI
+
+![Vue globale](screenshots/01_vue_globale.png)
+![Ventes par région](screenshots/02_ventes_par_region.png)
+![Évolution temporelle](screenshots/03_evolution_temporelle.png)
+![Plateformes](screenshots/04_plateformes.png)
+![Top jeux](screenshots/05_top_jeux.png)
 
 ## 🛠️ Extensions possibles
 

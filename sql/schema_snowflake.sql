@@ -123,6 +123,26 @@ SELECT * FROM VALUES
     ('Other', 'Rest of World',  'Various',  'XX')
 AS t(REGION_CODE, REGION_LABEL, CONTINENT, CONTINENT_CODE);
 
+-- ─────────────────────────────────────────────────────────────
+--  NOTE : DIM_DATE
+--  Une table dim_date n'a pas été implémentée dans ce projet
+--  car les données VGChartz sont annuelles (RELEASE_YEAR).
+--  Elle serait pertinente avec des données transactionnelles
+--  à granularité jour/mois (ex: données Steam en temps réel).
+--
+--  Structure prévue pour une évolution future :
+-- ─────────────────────────────────────────────────────────────
+-- CREATE TABLE IF NOT EXISTS DIM_DATE (
+--     DATE_ID     INTEGER PRIMARY KEY,   -- format YYYYMMDD
+--     FULL_DATE   DATE,
+--     YEAR        SMALLINT,
+--     QUARTER     SMALLINT,
+--     MONTH       SMALLINT,
+--     MONTH_NAME  VARCHAR(20),
+--     WEEK        SMALLINT,
+--     IS_WEEKEND  BOOLEAN
+-- );
+
 -- =============================================================
 --  TABLE DE FAITS
 -- =============================================================

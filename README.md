@@ -10,6 +10,7 @@ Au-delà de l'exercice technique, ce projet est né d'une réflexion personnelle
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![Airflow](https://img.shields.io/badge/Airflow-2.x-red.svg)](https://airflow.apache.org/)
+[![Docker](https://img.shields.io/badge/Docker-Containers-blue)](https://www.docker.com/)
 [![Snowflake](https://img.shields.io/badge/Snowflake-DataCloud-blue)](https://www.snowflake.com/)
 [![AWS S3](https://img.shields.io/badge/AWS-S3-orange)](https://aws.amazon.com/s3/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)](https://www.postgresql.org/)

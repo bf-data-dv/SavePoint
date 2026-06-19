@@ -323,11 +323,15 @@ et peut être déclenché manuellement depuis l'interface Airflow.
 
 ## 📸 Dashboard Power BI
 
-![Vue globale](screenshots/01_vue_globale.png)
-![Ventes par région](screenshots/02_ventes_par_region.png)
-![Évolution temporelle](screenshots/03_evolution_temporelle.png)
-![Plateformes](screenshots/04_plateformes.png)
-![Top jeux](screenshots/05_top_jeux.png)
+![Projet Savepoint](screenshots/01_Projet_Savepoint)
+![Vue globale](screenshots/02vue_globale.png)
+![Performance géographique](screenshots/03_performance_géographique)
+![Performance par continent](screenshots/04_performance_continent)
+![Évolution temporelle](screenshots/05_evolution_temporelle.png)
+![Top jeux](screenshots/06_top_jeux.png)
+![Plateformes](screenshots/07_plateformes.png)
+![Analyse critique](screenshots/08_analyse_critique)
+![Frachise vs originalité](screenshots/09_franchise_vs_originalité)
 
 ---
 
